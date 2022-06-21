@@ -1,5 +1,5 @@
 {
-    "name": "phery/phery.js",
+    "name": "bjoern-kcs/phery",
     "type": "library",
     "description": "XAJAX alternative, phery.js is a library in PHP that maps to all jQuery functions, DOM manipulation, meta arguments and serialization, seamless ajax integration, RESTful emulation, form submission and partial rendering views, plus its PSR-0 compatible",
     "keywords": [
@@ -28,6 +28,11 @@
         {
             "name": "Paulo Cesar",
             "homepage": "http://phery-php-ajax.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Björn Rimkus",
+            "homepage": "https://www.kcs.info",
             "role": "Developer"
         }
     ],
