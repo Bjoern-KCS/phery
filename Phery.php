@@ -655,7 +655,7 @@ class Phery implements ArrayAccess {
 
 		if (!empty($_POST['args']))
 		{
-			$args = get_magic_quotes_gpc() ? $this->stripslashes_recursive($_POST['args']) : $_POST['args'];
+			$args = class_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc() ? $this->stripslashes_recursive($_POST['args']) : $_POST['args'];
 
 			if ($last_call === true)
 			{
